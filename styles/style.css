@@ -1,0 +1,548 @@
+* {
+    font-family: Work Sans;
+    margin: 0;
+}
+
+
+
+
+.nav-bar {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    /* height: 130px; */
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.nav-title {
+    height: 50px;
+    display: flex;
+
+}
+
+.nav-title img {
+    margin-right: 20px;
+}
+
+
+.nav-head {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.nav-head span {
+    color: #FF42A5;
+}
+
+.nav-option {
+    color: #3C354F;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+
+
+}
+
+.nav-point {
+    margin-top: 20px;
+}
+
+
+.nav-option p,
+button {
+    margin-left: 30px;
+}
+
+.nav-option button {
+    width: 262px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+
+
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+
+    padding-left: 8%;
+}
+
+
+.banner-left {
+    margin-top: 150px;
+}
+
+
+.banner-left h2 {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-left h1 {
+    font-size: 95px;
+    font-weight: 800;
+    font-style: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-left p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.banner-left button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    padding: 21px 40px;
+    border: none;
+
+}
+
+.header-btn-one {
+    background-color: #FF42A5;
+}
+
+.header-btn-two {
+    background: #4EC5F7;
+}
+
+
+/* info */
+
+.info {
+    display: flex;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+
+
+
+
+.info-text {
+    text-align: right;
+    display: contents;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+
+}
+
+.info-head {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info-pera {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 520px;
+}
+
+
+.info-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    padding: 21px 40px;
+    border: none;
+    background-color: #FF42A5;
+    margin-top: 30px;
+}
+
+
+/* \\\\\\\\main//////// */
+
+/* card part */
+
+
+.card-section {
+    padding: 8%;
+}
+
+
+.card-head {
+    text-align: center;
+}
+
+
+.card-head-one {
+    color: #0B0223;
+    text-align: right;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+}
+
+.card-head-two {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+p {
+    color: #534C64;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+}
+
+
+/* .... highlight section  ..... */
+
+.highlight {}
+
+.highlight-one {
+    display: flex;
+    padding-left: 430px;
+    padding-right: 240px;
+}
+
+
+.hi-one-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hi-one-text h2 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF42A5;
+}
+
+.hi-one-text h3 {
+    text-align: right;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.hi-one-text p {
+    text-align: right;
+}
+
+
+
+.hi-one-photos {}
+
+
+.highlight-two {
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.hi-two-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.hi-two-text h2 {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF42A5;
+}
+
+.hi-two-text h3 {
+    text-align: left;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+
+.hi-two-photos {}
+
+
+
+/* ''''''''''''bottom section'''''''''' */
+
+
+
+
+
+
+
+
+.bottom-sector {
+    height: 820px;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+
+
+
+
+.bottom-sector {
+
+    display: flex;
+
+    padding-left: 8%;
+}
+
+.bottom-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+.bottom-left h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+
+.bottom-left p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+.bottom-left button {
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    color: #FF42A5;
+    border: none;
+    margin-top: 40px;
+
+}
+
+
+/* games section */
+
+.top-games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 8%;
+}
+
+.game {
+    display: flex;
+    margin-top: 35px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 636px;
+    background: #0B0223;
+
+
+}
+
+
+.f-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 100px;
+}
+
+.f-head {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFF;
+}
+
+.f-head span {
+    color: #FF42A5
+}
+
+.f-options {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.f-option{
+    
+    
+}
+
+/* midea quary */
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        box-shadow: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-option {
+        flex-direction: column;
+    }
+
+    .nav-point {
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        background-image: none;
+    }
+
+    .banner-img {
+        max-width: 100%;
+    }
+
+    /* info */
+
+    .info {
+        padding: 0;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .info-img {
+        max-width: 100%;
+    }
+
+    .info-pera {
+        text-align: center;
+    }
+
+    /* card part */
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* highlight section */
+
+    .highlight-one {
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .highlight-two {
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .hi-ph-one {
+        max-width: 100%;
+    }
+
+    .hi-ph-three {
+        max-width: 100%;
+    }
+
+    /* bottom section */
+    .bottom-sector {
+        flex-direction: column;
+        background-image: none;
+        background: #FF42A5;
+        padding: 0%;
+
+    }
+
+
+    .bottom-right-img {
+        max-width: 100%;
+    }
+
+
+    .top-games {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* FOOTER */
+
+    .f-options{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+
+
+
+}
